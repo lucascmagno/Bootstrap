@@ -18,6 +18,10 @@ form.form-jodit{
     gap: 10px;
     margin: auto;
 }
+
+.form-select{
+    width: 200px;
+}
 .input-categoria{
     display: flex;
     width: 100%;
@@ -44,6 +48,7 @@ form.form-jodit{
 .navbar-link-imagens{
     padding-top: 50px;
     margin-right: 100px;
+    height: 400px;
 }
 
 @media screen and (max-width: 540px){
@@ -52,6 +57,7 @@ form.form-jodit{
     }
     .input-image{
         display: flex;
+        flex-direction: column;
         gap: 10px;
     }
     section{
@@ -62,6 +68,12 @@ form.form-jodit{
     }
 
     .navbar-link-imagens{
+        width: 100%;
         display: flex;
+        flex-direction: column;
+    }
+    .ul-link-images{
+        height: 300px;
+        overflow: scroll;
     }
 }
