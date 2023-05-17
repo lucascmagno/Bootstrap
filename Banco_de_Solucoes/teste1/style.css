@@ -31,7 +31,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 100px;
+    height: 100vh;
 }
 .card_container{
     flex-direction: row;
