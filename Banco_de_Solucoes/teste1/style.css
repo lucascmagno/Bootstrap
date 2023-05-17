@@ -16,7 +16,7 @@ nav.navbar1{
 }
 .navbar2{
     position: static;
-    padding-top: 0;
+    padding: 0;
 }
 
 .paginacao{
